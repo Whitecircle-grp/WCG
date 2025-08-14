@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | WhiteCircle Group</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="is-protected">
+
+  <nav class="navbar">
+    <a href="index.html" class="navbar-logo">
+        <img src="https://i.ibb.co/WN7FvHC3/Whitecircle-Logo.jpg" alt="Whitecircle-Logo">
+    </a>
+    <ul class="navbar-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="#" id="logout-link">Logout</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="page-container form-container">
+      <h1 class="page-title">Get In Touch</h1>
+      <form onsubmit="alert('Thank you for your message!'); this.reset(); return false;">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" required>
+          <label for="email">Email Address</label>
+          <input type="email" id="email" required>
+          <label for="phone">Mobile Number</label>
+          <input type="tel" id="phone" required>
+          <label for="service-needed">Which service do you need?</label>
+          <select id="service-needed" required>
+              <option value="" disabled selected>-- Select a Sector --</option>
+              <option value="textile">Textile & Apparel</option>
+              <option value="automobile">Automobile</option>
+              <option value="electronics">Electronics</option>
+              <option value="pharma">Pharmaceuticals</option>
+          </select>
+          <label for="message">Your Message</label>
+          <textarea id="message" rows="4" required></textarea>
+          <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+     <div class="footer-content">
+        <div class="footer-section"><h3>About WhiteCircle</h3><p>Your trusted partner for navigating the complexities of international trade and manufacturing.</p></div>
+        <div class="footer-section"><h3>Quick Links</h3><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="contact.html">Contact Us</a></li></ul></div>
+        <div class="footer-section"><h3>Contact Info</h3><p>Email: <a href="mailto:info@whitecirclegroup.com">info@whitecirclegroup.com</a></p><p>Phone: <a href="tel:+911234567890">+91 (123) 456-7890</a></p></div>
+    </div>
+    <div class="footer-bottom">© 2025 WhiteCircle Group | All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
