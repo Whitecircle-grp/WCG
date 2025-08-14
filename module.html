@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>School Management System UI</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="module.css" />
+</head>
+<body>
+
+
+ 
+
+  <nav class="navbar">
+    <div class="navbar-brand">
+      🏫 School Management System
+    </div>
+    <ul class="navbar-links">
+       <li><a href="home.html" class="active">Home</a></li>
+      <li><a href="module.html">Modules</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <header class="header">
+    <h1>Our Modules</h1>
+    <p>We Provide All of These Core School Management Modules.</p>
+  </header>
+
+
+  <main class="grid-container">
+    <div class="module" onclick="toggleModule(this)">
+      <img src="https://img.icons8.com/ios/100/student-male--v1.png" alt="Student Info">
+      <p>Student Information</p>
+      <div class="module-preview hidden">
+        <img src="https://cdn.dribbble.com/userupload/14888169/file/original-dfa0e9c2c36129540847d914354e3c36.png?resize=1504x1128&vertical=center" alt="Student Info Large">
+      </div>
+    </div>
+
+    <div class="module" onclick="toggleModule(this)">
+      <img src="https://img.icons8.com/ios/100/attendance-mark.png" alt="Attendance">
+      <p>Attendance</p>
+      <div class="module-preview hidden">
+        <img src="https://cdn.dribbble.com/userupload/37052341/file/original-4130d83cd020cbf78baa37af27c3dd35.jpg" alt="Attendance Large">
+      </div>
+    </div>
+
+    <div class="module" onclick="toggleModule(this)">
+      <img src="https://img.icons8.com/ios/100/money--v1.png" alt="Fee">
+      <p>Fee Management</p>
+      <div class="module-preview hidden">
+        <img src="https://cdn.dribbble.com/userupload/36909502/file/original-237872587869846f5026b11f0e8f4c06.png" alt="Fee Large">
+      </div>
+    </div>
+
+    <div class="module" onclick="toggleModule(this)">
+      <img src="https://img.icons8.com/ios/100/test-passed.png" alt="Exam">
+      <p>Exam & Results</p>
+      <div class="module-preview hidden">
+        <img src="https://cdn.dribbble.com/userupload/43377322/file/original-5c787afb3af680894b20e17dacd26264.jpg" alt="Exam Large">
+      </div>
+    </div>
+
+    <div class="module" onclick="toggleModule(this)">
+      <img src="https://img.icons8.com/ios/100/calendar--v1.png" alt="Timetable">
+      <p>Timetable</p>
+      <div class="module-preview hidden">
+        <img src="https://cdn.dribbble.com/userupload/41815638/file/original-18546f35de41d92d7f7786c04a41f94c.jpg" alt="Timetable Large">
+      </div>
+    </div>
+
+    <div class="module" onclick="toggleModule(this)">
+      <img src="https://img.icons8.com/ios/100/books.png" alt="Library">
+      <p>Library</p>
+      <div class="module-preview hidden">
+        <img src="https://media.gettyimages.com/id/1464393255/photo/small-library-for-elementary-students.jpg?s=612x612&w=0&k=20&c=s_uL_LRp1b6WjIJEHGd-0aJAI9hJu78D6Si3h9Kn4y4=" alt="Library Large">
+      </div>
+    </div>
+
+    <div class="module" onclick="toggleModule(this)">
+      <img src="https://img.icons8.com/ios/100/school-bus.png" alt="Transport">
+      <p>Transport</p>
+      <div class="module-preview hidden">
+        <img src="https://cdn.dribbble.com/userupload/6602762/file/original-458a7ea73b6b2488d7e74ff800422eea.png" alt="Transport Large">
+      </div>
+    </div>
+
+    <div class="module" onclick="toggleModule(this)">
+      <img src="https://img.icons8.com/ios/100/teacher.png" alt="Staff">
+      <p>Staff/Teacher</p>
+      <div class="module-preview hidden">
+        <img src="https://cdn.dribbble.com/userupload/40724432/file/original-4d43ff923286facfd3be0c5d1d3d94fc.png" alt="Staff Large">
+      </div>
+    </div>
+
+    <div class="module" onclick="toggleModule(this)">
+      <img src="https://img.icons8.com/ios/100/bedroom.png" alt="Hostel">
+      <p>Hostel</p>
+      <div class="module-preview hidden">
+        <img src="https://cdn.dribbble.com/userupload/14437394/file/original-19af3ae731c43ed57d14aa7277456fe1.jpg" alt="Hostel Large">
+      </div>
+    </div>
+
+    <div class="module" onclick="toggleModule(this)">
+      <img src="https://img.icons8.com/ios/100/family.png" alt="Parent Comm">
+      <p>Parent Portal</p>
+      <div class="module-preview hidden">
+        <img src="https://cdn.dribbble.com/userupload/39930201/file/original-34590ace46744e734484572c07ddf54e.png" alt="Parent Large">
+      </div>
+    </div>
+  </main>
+
+ <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>About School</h3>
+        <p>Empowering future leaders through quality education and seamless school management solutions.</p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/admissions.html">Admissions</a></li>
+          <li><a href="/login.html">Login</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p>Email: <a href="mailto:info@school.edu">info@school.edu</a></p>
+        <p>Phone: +91 9876543210</p>
+        <p>Address: 123 School Lane, City, State - 123456</p>
+      </div>
+
+      <div class="footer-social">
+        <h3>Follow Us</h3>
+        <a href="#">Facebook</a> |
+        <a href="#">Instagram</a> |
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 School Management System. All rights reserved. | Developed by Yash Gupta</p>
+    </div>
+  </footer>
+
+  <script src="module.js"></script>
+</body>
+</html>
